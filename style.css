@@ -8,7 +8,8 @@ body {
     background-attachment: fixed;
     font-size: 20px;
     margin: 0;
-    padding: 0
+    padding: 0;
+    margin-bottom: 70px;
 }
 
 html {
@@ -73,6 +74,7 @@ h1 {
     font-size: 18px;
     color: #ffffff;
     margin-bottom: 20px;
+    padding: 10px;
     background-image: url('assets/code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +118,26 @@ h1 {
     border-radius: 15px;
     box-shadow: 5px 5px 5px #888888;
     padding: 15px 20px;
-    max-width: 600px;
-    width: 100%;
+    
     margin-top: 10px;
+}
+
+.projects {
+    background-color: #acadab;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 15px 20px;
+   
+    margin-top: 10px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
 }

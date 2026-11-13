@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    font-size: 20px;
     margin: 0;
     padding: 0
 }
@@ -68,6 +68,17 @@ h1 {
     background-color: #ffffff;
     
 }
+.headp {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    background-image: url('assets/code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 15px;
+}
 
 
 
@@ -80,6 +91,26 @@ h1 {
 }
 
 .me {
+    background-color: #acadab;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 15px 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+.skills {
+    background-color: #acadab;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 15px 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact {
     background-color: #acadab;
     border: 1px solid black;
     border-radius: 15px;

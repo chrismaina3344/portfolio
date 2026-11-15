@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+           
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+           
+            
+        }
+
+        .hero {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+            background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+            background-size: cover;
+            background-position: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-weight: bold;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+        img
+        {
+            display: left;
+        }
+        .text
+        {
+            text-align: left;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex:1;
+            
+        }
+        .best
+        {
+           background-color: #000441e3;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            max-width: 500px;
+            padding: 20px;
+            flex: 1;
+            
+           
+        }
+       
+        .best2  
+        {
+           background-color: #000441e3;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            max-width: 500px;
+            padding: 20px;
+            flex: 1;
+            
+           
+        }
+
+        .info
+        {
+   display:block; 
+   text-align: center; 
+ 
+ }
+
+ 
+
+        .skills
+        {
+             
+            padding: 50px;
+           
+           
+            background-size: cover;
+            background-position: center;
+            color: #f4f4f4;
+            display: flex;
+            justify-content:space-evenly;
+               background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+               margin-bottom: 5px;    
+        }
+        .skills li
+        {
+          margin-bottom: 15px;   
+        }
+        .ic img
+        {
+            width: 600px;
+            height: 300px;
+            display: flex                 ;
+        }
+        .gap
+        {
+            background-color:rgb(0, 0, 5) ;
+            height: 61px;
+            color: bisque;
+            border-top-right-radius: 92%;
+            padding: 13px;
+            font-weight: 800;
+            font-size: 21px;
+            text-align: center;
+        
+
+        }
+       .s2
+        {
+            background-color: #f4f4f4;
+            color: black;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px 3px  red;
+        }
+        .container li{
+            margin-bottom: 15px;
+        }
+        .cv
+        {
+            background-color: azure;
+            padding: 5px;
+            border-radius: 8px;
+            
+        }
+
+
+        .projects
+        {
+             justify-content:space-evenly;
+             padding: 22px;
+             padding-left: 120px;
+        }
+
+        .pt
+        {
+        font-weight: 700;
+        text-decoration: underline;
+        text-align: center ;
+        }
+        
+
+        .zuca      
+        {
+            display: flex;
+            gap: 6%;
+            justify-content:space-evenly;
+            padding: 33px;
+           
+           width: 100%;
+             color: white;
+             text-align: center;
+
+        }
+        img
+        {
+            border-radius: 12px;
+        }
+        .int
+        {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        .pc{
+           padding-left: 76px;
+           padding-right: 78px;
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+            width:70%;        
+  margin: 0 auto;          
+  padding: 20px; 
+            
+           
+        }
+        .pc li
+        {
+            font-weight: 600;
+        }
+       
+        .list
+        {
+            padding: 23px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+          
+  max-width: 60%;        
+  margin: 0 auto;          
+  padding: 20px;   
+ box-shadow: 0 40px 34px 12px rgb(2, 1, 75);
+        
+}
+
+
+        
+        
+     
+
+
+       /* screns like phone*/
+
+        @media screen and (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .text {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .best, .best2 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .skills {
+        flex-direction: column;
+        padding: 30px 15px;
+        gap: 25px;
+    }
+    .projects
+    {
+        padding-left: 0;
+        padding: 22PX;
+    }
+    .projects
+    {width: 100%;
+    }
+    .zuca{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+            gap: 34px;
+        
+        
+    }
+    
+    .ic img
+        {
+            width:290px;
+            height: 190px;
+            display: flex ;  
+            gap: 6%;
+            margin-left: -25px ;  
+                   
+        }
+        .list
+        {
+           max-width: 98%;        
+  margin: 0 auto;          
+  padding: 20px; 
+        }
+
+        .pc
+        {
+        flex-direction: column;
+        padding: 1px;
+       
+        }
+        
+}
+.p1
+{
+    background: rgb(1, 0, 54);
+    color: rgb(231, 231, 225);
+    padding: 12px;
+    max-width: 97%;
+    border-radius: 12px;
+    text-align: center;
+    border-top-right-radius: 3%;
+   text-wrap-style: auto;
+}
+
+.br
+{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+            background-size: cover;
+            background-position: center;
+            height:50px;
+            margin-top: -63px ;
+            
